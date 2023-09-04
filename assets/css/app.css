@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+/* Header Start */
+
+.navbar-container {
+  /* max-width: 1200px; */
+  width: 100%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  padding-block: 1rem;
+  z-index: 999;
+  background-color: rgb(7, 7, 214);
+  position: fixed;
+  top: 0;
+}
+
+.navbar-container .brand h1 {
+  font-size: 24px;
+  font-weight: 800;
+  color: white;
+}
+
+.navbar-container .nav-list ul {
+  padding-left: 0;
+  display: flex;
+
+  justify-content: center;
+  gap: 2rem 1rem;
+}
+
+.navbar-container .nav-list li {
+  list-style-type: none;
+}
+
+.navbar-container .nav-list li a {
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 999px;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-container .nav-list li:hover a {
+  background-color: rgb(0, 140, 255);
+  color: white;
+}
+/* Header End */
+
+/* Main Content Start */
+main {
+  width: 100%;
+  margin-inline: auto;
+  padding: 2rem 4rem;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+/* Main Content End */
+
+/* Footer start */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  background-color: rgb(7, 7, 214);
+  bottom: 0;
+}
+/* Footer end */
