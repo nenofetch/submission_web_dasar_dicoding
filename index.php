@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Web | Nenofetch</title>
     <!-- My Own Styles -->
-    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="https://storage.googleapis.com/asset_web_nenoarisma/assets/styles/style.css" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,7 +21,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <script src="assets/scripts/script.js" defer></script>
+    <script src="https://storage.googleapis.com/asset_web_nenoarisma/assets/scripts/script.js" defer></script>
   </head>
 
   <body>
@@ -51,7 +51,7 @@
         <article id="perkenalan" class="card">
           <h2>Perkenalan</h2>
           <img
-            src="https://storage.googleapis.com/asset_web_nenoarisma/images/first.webp"
+            src="https://storage.googleapis.com/asset_web_nenoarisma/assets/images/first.webp"
             alt="gambar pertama"
             class="feature-image"
           />
@@ -67,7 +67,7 @@
         <article id="momen" class="card">
           <h2>Momen</h2>
           <img
-            src="https://storage.googleapis.com/asset_web_nenoarisma/images/pelatihan.webp"
+            src="https://storage.googleapis.com/asset_web_nenoarisma/assets/images/pelatihan.webp"
             alt="momen berkesan"
             class="feature-image"
           />
@@ -92,7 +92,7 @@
               <div class="slideshow fade">
                 <img
                   class="feature-image"
-                  src="https://storage.googleapis.com/asset_web_nenoarisma/images/slides/gedungsate.webp"
+                  src="https://storage.googleapis.com/asset_web_nenoarisma/assets/images/slides/gedungsate.webp"
                   alt="gedung sate"
                 />
               </div>
@@ -100,7 +100,7 @@
               <div class="slideshow fade">
                 <img
                   class="feature-image"
-                  src="https://storage.googleapis.com/asset_web_nenoarisma/images/slides/depok.webp"
+                  src="https://storage.googleapis.com/asset_web_nenoarisma/assets/images/slides/depok.webp"
                   alt="margonda"
                 />
               </div>
@@ -108,7 +108,7 @@
               <div class="slideshow fade">
                 <img
                   class="feature-image"
-                  src="https://storage.googleapis.com/asset_web_nenoarisma/images/slides/tol.webp"
+                  src="https://storage.googleapis.com/asset_web_nenoarisma/assets/images/slides/tol.webp"
                   alt="jalan tol"
                 />
               </div>
@@ -135,7 +135,7 @@
             <figure>
               <img
                 class="personal-image"
-                src="https://storage.googleapis.com/asset_web_nenoarisma/images/personal.webp"
+                src="https://storage.googleapis.com/asset_web_nenoarisma/assets/images/personal.webp"
                 alt="Nenofetch"
               />
               <figcaption>Creator this website</figcaption>
